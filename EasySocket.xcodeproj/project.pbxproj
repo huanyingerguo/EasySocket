@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D27F78BC1CE9C22F00EFA2BC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F78BB1CE9C22F00EFA2BC /* main.cpp */; };
+		D27F78D21CEDE8C000EFA2BC /* pugixml.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F78D01CEDE8C000EFA2BC /* pugixml.cpp */; };
+		D27F78D81CEDE8D100EFA2BC /* HandShake.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F78D41CEDE8D100EFA2BC /* HandShake.cpp */; };
+		D27F78D91CEDE8D100EFA2BC /* IMRSA.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F78D61CEDE8D100EFA2BC /* IMRSA.cpp */; };
+		D27F78DB1CEDECA700EFA2BC /* libcrypto.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D27F78DA1CEDECA700EFA2BC /* libcrypto.tbd */; };
+		D27F79291CEEB70B00EFA2BC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D27F79281CEEB70B00EFA2BC /* libz.tbd */; };
+		D27F792C1CEECF7D00EFA2BC /* md5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D27F792A1CEECF7D00EFA2BC /* md5.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D27F78B61CE9C22F00EFA2BC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D27F78B81CE9C22F00EFA2BC /* EasySocket */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EasySocket; sourceTree = BUILT_PRODUCTS_DIR; };
+		D27F78BB1CE9C22F00EFA2BC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D27F78CF1CEDE8C000EFA2BC /* pugiconfig.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = pugiconfig.hpp; path = xml/pugiconfig.hpp; sourceTree = "<group>"; };
+		D27F78D01CEDE8C000EFA2BC /* pugixml.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pugixml.cpp; path = xml/pugixml.cpp; sourceTree = "<group>"; };
+		D27F78D11CEDE8C000EFA2BC /* pugixml.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = pugixml.hpp; path = xml/pugixml.hpp; sourceTree = "<group>"; };
+		D27F78D31CEDE8D100EFA2BC /* CT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CT.h; sourceTree = "<group>"; };
+		D27F78D41CEDE8D100EFA2BC /* HandShake.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HandShake.cpp; sourceTree = "<group>"; };
+		D27F78D51CEDE8D100EFA2BC /* HandShake.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HandShake.h; sourceTree = "<group>"; };
+		D27F78D61CEDE8D100EFA2BC /* IMRSA.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IMRSA.cpp; sourceTree = "<group>"; };
+		D27F78D71CEDE8D100EFA2BC /* IMRSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IMRSA.h; sourceTree = "<group>"; };
+		D27F78DA1CEDECA700EFA2BC /* libcrypto.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcrypto.tbd; path = usr/lib/libcrypto.tbd; sourceTree = SDKROOT; };
+		D27F78DD1CEDEDB100EFA2BC /* aes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = aes.h; sourceTree = "<group>"; };
+		D27F78DE1CEDEDB100EFA2BC /* asn1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1.h; sourceTree = "<group>"; };
+		D27F78DF1CEDEDB200EFA2BC /* asn1_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1_mac.h; sourceTree = "<group>"; };
+		D27F78E01CEDEDB200EFA2BC /* asn1t.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn1t.h; sourceTree = "<group>"; };
+		D27F78E11CEDEDB200EFA2BC /* bio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bio.h; sourceTree = "<group>"; };
+		D27F78E21CEDEDB200EFA2BC /* blowfish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = blowfish.h; sourceTree = "<group>"; };
+		D27F78E31CEDEDB200EFA2BC /* bn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bn.h; sourceTree = "<group>"; };
+		D27F78E41CEDEDB200EFA2BC /* buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = buffer.h; sourceTree = "<group>"; };
+		D27F78E51CEDEDB200EFA2BC /* camellia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = camellia.h; sourceTree = "<group>"; };
+		D27F78E61CEDEDB200EFA2BC /* cast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cast.h; sourceTree = "<group>"; };
+		D27F78E71CEDEDB200EFA2BC /* cmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cmac.h; sourceTree = "<group>"; };
+		D27F78E81CEDEDB200EFA2BC /* cms.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cms.h; sourceTree = "<group>"; };
+		D27F78E91CEDEDB200EFA2BC /* comp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = comp.h; sourceTree = "<group>"; };
+		D27F78EA1CEDEDB200EFA2BC /* conf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf.h; sourceTree = "<group>"; };
+		D27F78EB1CEDEDB200EFA2BC /* conf_api.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = conf_api.h; sourceTree = "<group>"; };
+		D27F78EC1CEDEDB200EFA2BC /* crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypto.h; sourceTree = "<group>"; };
+		D27F78ED1CEDEDB200EFA2BC /* des.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des.h; sourceTree = "<group>"; };
+		D27F78EE1CEDEDB200EFA2BC /* des_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = des_old.h; sourceTree = "<group>"; };
+		D27F78EF1CEDEDB200EFA2BC /* dh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dh.h; sourceTree = "<group>"; };
+		D27F78F01CEDEDB200EFA2BC /* dsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dsa.h; sourceTree = "<group>"; };
+		D27F78F11CEDEDB200EFA2BC /* dso.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dso.h; sourceTree = "<group>"; };
+		D27F78F21CEDEDB200EFA2BC /* dtls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dtls1.h; sourceTree = "<group>"; };
+		D27F78F31CEDEDB200EFA2BC /* e_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = e_os2.h; sourceTree = "<group>"; };
+		D27F78F41CEDEDB200EFA2BC /* ebcdic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ebcdic.h; sourceTree = "<group>"; };
+		D27F78F51CEDEDB200EFA2BC /* ec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ec.h; sourceTree = "<group>"; };
+		D27F78F61CEDEDB200EFA2BC /* ecdh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdh.h; sourceTree = "<group>"; };
+		D27F78F71CEDEDB200EFA2BC /* ecdsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ecdsa.h; sourceTree = "<group>"; };
+		D27F78F81CEDEDB200EFA2BC /* engine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = engine.h; sourceTree = "<group>"; };
+		D27F78F91CEDEDB200EFA2BC /* err.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = err.h; sourceTree = "<group>"; };
+		D27F78FA1CEDEDB200EFA2BC /* evp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = evp.h; sourceTree = "<group>"; };
+		D27F78FB1CEDEDB200EFA2BC /* hmac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = hmac.h; sourceTree = "<group>"; };
+		D27F78FC1CEDEDB200EFA2BC /* idea.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = idea.h; sourceTree = "<group>"; };
+		D27F78FD1CEDEDB200EFA2BC /* krb5_asn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = krb5_asn.h; sourceTree = "<group>"; };
+		D27F78FE1CEDEDB200EFA2BC /* kssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kssl.h; sourceTree = "<group>"; };
+		D27F78FF1CEDEDB200EFA2BC /* lhash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lhash.h; sourceTree = "<group>"; };
+		D27F79001CEDEDB200EFA2BC /* md4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md4.h; sourceTree = "<group>"; };
+		D27F79011CEDEDB200EFA2BC /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		D27F79021CEDEDB200EFA2BC /* mdc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mdc2.h; sourceTree = "<group>"; };
+		D27F79031CEDEDB200EFA2BC /* modes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modes.h; sourceTree = "<group>"; };
+		D27F79041CEDEDB200EFA2BC /* obj_mac.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = obj_mac.h; sourceTree = "<group>"; };
+		D27F79051CEDEDB200EFA2BC /* objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = objects.h; sourceTree = "<group>"; };
+		D27F79061CEDEDB200EFA2BC /* ocsp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ocsp.h; sourceTree = "<group>"; };
+		D27F79071CEDEDB200EFA2BC /* opensslconf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslconf.h; sourceTree = "<group>"; };
+		D27F79081CEDEDB200EFA2BC /* opensslv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = opensslv.h; sourceTree = "<group>"; };
+		D27F79091CEDEDB200EFA2BC /* ossl_typ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ossl_typ.h; sourceTree = "<group>"; };
+		D27F790A1CEDEDB200EFA2BC /* pem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem.h; sourceTree = "<group>"; };
+		D27F790B1CEDEDB200EFA2BC /* pem2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pem2.h; sourceTree = "<group>"; };
+		D27F790C1CEDEDB200EFA2BC /* pkcs12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs12.h; sourceTree = "<group>"; };
+		D27F790D1CEDEDB200EFA2BC /* pkcs7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pkcs7.h; sourceTree = "<group>"; };
+		D27F790E1CEDEDB200EFA2BC /* pqueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pqueue.h; sourceTree = "<group>"; };
+		D27F790F1CEDEDB200EFA2BC /* rand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rand.h; sourceTree = "<group>"; };
+		D27F79101CEDEDB200EFA2BC /* rc2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc2.h; sourceTree = "<group>"; };
+		D27F79111CEDEDB200EFA2BC /* rc4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rc4.h; sourceTree = "<group>"; };
+		D27F79121CEDEDB200EFA2BC /* ripemd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ripemd.h; sourceTree = "<group>"; };
+		D27F79131CEDEDB200EFA2BC /* rsa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rsa.h; sourceTree = "<group>"; };
+		D27F79141CEDEDB200EFA2BC /* safestack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = safestack.h; sourceTree = "<group>"; };
+		D27F79151CEDEDB200EFA2BC /* seed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = seed.h; sourceTree = "<group>"; };
+		D27F79161CEDEDB200EFA2BC /* sha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sha.h; sourceTree = "<group>"; };
+		D27F79171CEDEDB200EFA2BC /* srp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srp.h; sourceTree = "<group>"; };
+		D27F79181CEDEDB200EFA2BC /* srtp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = srtp.h; sourceTree = "<group>"; };
+		D27F79191CEDEDB200EFA2BC /* ssl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl.h; sourceTree = "<group>"; };
+		D27F791A1CEDEDB200EFA2BC /* ssl2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl2.h; sourceTree = "<group>"; };
+		D27F791B1CEDEDB200EFA2BC /* ssl23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl23.h; sourceTree = "<group>"; };
+		D27F791C1CEDEDB200EFA2BC /* ssl3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssl3.h; sourceTree = "<group>"; };
+		D27F791D1CEDEDB200EFA2BC /* stack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stack.h; sourceTree = "<group>"; };
+		D27F791E1CEDEDB200EFA2BC /* symhacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = symhacks.h; sourceTree = "<group>"; };
+		D27F791F1CEDEDB200EFA2BC /* tls1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tls1.h; sourceTree = "<group>"; };
+		D27F79201CEDEDB200EFA2BC /* ts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ts.h; sourceTree = "<group>"; };
+		D27F79211CEDEDB200EFA2BC /* txt_db.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txt_db.h; sourceTree = "<group>"; };
+		D27F79221CEDEDB200EFA2BC /* ui.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui.h; sourceTree = "<group>"; };
+		D27F79231CEDEDB200EFA2BC /* ui_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ui_compat.h; sourceTree = "<group>"; };
+		D27F79241CEDEDB200EFA2BC /* whrlpool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = whrlpool.h; sourceTree = "<group>"; };
+		D27F79251CEDEDB200EFA2BC /* x509.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509.h; sourceTree = "<group>"; };
+		D27F79261CEDEDB200EFA2BC /* x509_vfy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509_vfy.h; sourceTree = "<group>"; };
+		D27F79271CEDEDB200EFA2BC /* x509v3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = x509v3.h; sourceTree = "<group>"; };
+		D27F79281CEEB70B00EFA2BC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		D27F792A1CEECF7D00EFA2BC /* md5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = md5.cpp; sourceTree = "<group>"; };
+		D27F792B1CEECF7D00EFA2BC /* md5.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = md5.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D27F78B51CE9C22F00EFA2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27F79291CEEB70B00EFA2BC /* libz.tbd in Frameworks */,
+				D27F78DB1CEDECA700EFA2BC /* libcrypto.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D27F78AF1CE9C22F00EFA2BC = {
+			isa = PBXGroup;
+			children = (
+				D27F79281CEEB70B00EFA2BC /* libz.tbd */,
+				D27F78DA1CEDECA700EFA2BC /* libcrypto.tbd */,
+				D27F78BA1CE9C22F00EFA2BC /* EasySocket */,
+				D27F78B91CE9C22F00EFA2BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D27F78B91CE9C22F00EFA2BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D27F78B81CE9C22F00EFA2BC /* EasySocket */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D27F78BA1CE9C22F00EFA2BC /* EasySocket */ = {
+			isa = PBXGroup;
+			children = (
+				D27F792A1CEECF7D00EFA2BC /* md5.cpp */,
+				D27F792B1CEECF7D00EFA2BC /* md5.hpp */,
+				D27F78D31CEDE8D100EFA2BC /* CT.h */,
+				D27F78D41CEDE8D100EFA2BC /* HandShake.cpp */,
+				D27F78D51CEDE8D100EFA2BC /* HandShake.h */,
+				D27F78D61CEDE8D100EFA2BC /* IMRSA.cpp */,
+				D27F78D71CEDE8D100EFA2BC /* IMRSA.h */,
+				D27F78CD1CEDE89900EFA2BC /* inc */,
+				D27F78C21CE9C29800EFA2BC /* src */,
+				D27F78BB1CE9C22F00EFA2BC /* main.cpp */,
+			);
+			path = EasySocket;
+			sourceTree = "<group>";
+		};
+		D27F78C21CE9C29800EFA2BC /* src */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		D27F78CD1CEDE89900EFA2BC /* inc */ = {
+			isa = PBXGroup;
+			children = (
+				D27F78DC1CEDEDB100EFA2BC /* openssl */,
+				D27F78CE1CEDE8B200EFA2BC /* xml */,
+			);
+			name = inc;
+			sourceTree = "<group>";
+		};
+		D27F78CE1CEDE8B200EFA2BC /* xml */ = {
+			isa = PBXGroup;
+			children = (
+				D27F78CF1CEDE8C000EFA2BC /* pugiconfig.hpp */,
+				D27F78D01CEDE8C000EFA2BC /* pugixml.cpp */,
+				D27F78D11CEDE8C000EFA2BC /* pugixml.hpp */,
+			);
+			name = xml;
+			sourceTree = "<group>";
+		};
+		D27F78DC1CEDEDB100EFA2BC /* openssl */ = {
+			isa = PBXGroup;
+			children = (
+				D27F78DD1CEDEDB100EFA2BC /* aes.h */,
+				D27F78DE1CEDEDB100EFA2BC /* asn1.h */,
+				D27F78DF1CEDEDB200EFA2BC /* asn1_mac.h */,
+				D27F78E01CEDEDB200EFA2BC /* asn1t.h */,
+				D27F78E11CEDEDB200EFA2BC /* bio.h */,
+				D27F78E21CEDEDB200EFA2BC /* blowfish.h */,
+				D27F78E31CEDEDB200EFA2BC /* bn.h */,
+				D27F78E41CEDEDB200EFA2BC /* buffer.h */,
+				D27F78E51CEDEDB200EFA2BC /* camellia.h */,
+				D27F78E61CEDEDB200EFA2BC /* cast.h */,
+				D27F78E71CEDEDB200EFA2BC /* cmac.h */,
+				D27F78E81CEDEDB200EFA2BC /* cms.h */,
+				D27F78E91CEDEDB200EFA2BC /* comp.h */,
+				D27F78EA1CEDEDB200EFA2BC /* conf.h */,
+				D27F78EB1CEDEDB200EFA2BC /* conf_api.h */,
+				D27F78EC1CEDEDB200EFA2BC /* crypto.h */,
+				D27F78ED1CEDEDB200EFA2BC /* des.h */,
+				D27F78EE1CEDEDB200EFA2BC /* des_old.h */,
+				D27F78EF1CEDEDB200EFA2BC /* dh.h */,
+				D27F78F01CEDEDB200EFA2BC /* dsa.h */,
+				D27F78F11CEDEDB200EFA2BC /* dso.h */,
+				D27F78F21CEDEDB200EFA2BC /* dtls1.h */,
+				D27F78F31CEDEDB200EFA2BC /* e_os2.h */,
+				D27F78F41CEDEDB200EFA2BC /* ebcdic.h */,
+				D27F78F51CEDEDB200EFA2BC /* ec.h */,
+				D27F78F61CEDEDB200EFA2BC /* ecdh.h */,
+				D27F78F71CEDEDB200EFA2BC /* ecdsa.h */,
+				D27F78F81CEDEDB200EFA2BC /* engine.h */,
+				D27F78F91CEDEDB200EFA2BC /* err.h */,
+				D27F78FA1CEDEDB200EFA2BC /* evp.h */,
+				D27F78FB1CEDEDB200EFA2BC /* hmac.h */,
+				D27F78FC1CEDEDB200EFA2BC /* idea.h */,
+				D27F78FD1CEDEDB200EFA2BC /* krb5_asn.h */,
+				D27F78FE1CEDEDB200EFA2BC /* kssl.h */,
+				D27F78FF1CEDEDB200EFA2BC /* lhash.h */,
+				D27F79001CEDEDB200EFA2BC /* md4.h */,
+				D27F79011CEDEDB200EFA2BC /* md5.h */,
+				D27F79021CEDEDB200EFA2BC /* mdc2.h */,
+				D27F79031CEDEDB200EFA2BC /* modes.h */,
+				D27F79041CEDEDB200EFA2BC /* obj_mac.h */,
+				D27F79051CEDEDB200EFA2BC /* objects.h */,
+				D27F79061CEDEDB200EFA2BC /* ocsp.h */,
+				D27F79071CEDEDB200EFA2BC /* opensslconf.h */,
+				D27F79081CEDEDB200EFA2BC /* opensslv.h */,
+				D27F79091CEDEDB200EFA2BC /* ossl_typ.h */,
+				D27F790A1CEDEDB200EFA2BC /* pem.h */,
+				D27F790B1CEDEDB200EFA2BC /* pem2.h */,
+				D27F790C1CEDEDB200EFA2BC /* pkcs12.h */,
+				D27F790D1CEDEDB200EFA2BC /* pkcs7.h */,
+				D27F790E1CEDEDB200EFA2BC /* pqueue.h */,
+				D27F790F1CEDEDB200EFA2BC /* rand.h */,
+				D27F79101CEDEDB200EFA2BC /* rc2.h */,
+				D27F79111CEDEDB200EFA2BC /* rc4.h */,
+				D27F79121CEDEDB200EFA2BC /* ripemd.h */,
+				D27F79131CEDEDB200EFA2BC /* rsa.h */,
+				D27F79141CEDEDB200EFA2BC /* safestack.h */,
+				D27F79151CEDEDB200EFA2BC /* seed.h */,
+				D27F79161CEDEDB200EFA2BC /* sha.h */,
+				D27F79171CEDEDB200EFA2BC /* srp.h */,
+				D27F79181CEDEDB200EFA2BC /* srtp.h */,
+				D27F79191CEDEDB200EFA2BC /* ssl.h */,
+				D27F791A1CEDEDB200EFA2BC /* ssl2.h */,
+				D27F791B1CEDEDB200EFA2BC /* ssl23.h */,
+				D27F791C1CEDEDB200EFA2BC /* ssl3.h */,
+				D27F791D1CEDEDB200EFA2BC /* stack.h */,
+				D27F791E1CEDEDB200EFA2BC /* symhacks.h */,
+				D27F791F1CEDEDB200EFA2BC /* tls1.h */,
+				D27F79201CEDEDB200EFA2BC /* ts.h */,
+				D27F79211CEDEDB200EFA2BC /* txt_db.h */,
+				D27F79221CEDEDB200EFA2BC /* ui.h */,
+				D27F79231CEDEDB200EFA2BC /* ui_compat.h */,
+				D27F79241CEDEDB200EFA2BC /* whrlpool.h */,
+				D27F79251CEDEDB200EFA2BC /* x509.h */,
+				D27F79261CEDEDB200EFA2BC /* x509_vfy.h */,
+				D27F79271CEDEDB200EFA2BC /* x509v3.h */,
+			);
+			name = openssl;
+			path = include/openssl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D27F78B71CE9C22F00EFA2BC /* EasySocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D27F78BF1CE9C22F00EFA2BC /* Build configuration list for PBXNativeTarget "EasySocket" */;
+			buildPhases = (
+				D27F78B41CE9C22F00EFA2BC /* Sources */,
+				D27F78B51CE9C22F00EFA2BC /* Frameworks */,
+				D27F78B61CE9C22F00EFA2BC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasySocket;
+			productName = EasySocket;
+			productReference = D27F78B81CE9C22F00EFA2BC /* EasySocket */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D27F78B01CE9C22F00EFA2BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = isee15;
+				TargetAttributes = {
+					D27F78B71CE9C22F00EFA2BC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D27F78B31CE9C22F00EFA2BC /* Build configuration list for PBXProject "EasySocket" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D27F78AF1CE9C22F00EFA2BC;
+			productRefGroup = D27F78B91CE9C22F00EFA2BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D27F78B71CE9C22F00EFA2BC /* EasySocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D27F78B41CE9C22F00EFA2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D27F792C1CEECF7D00EFA2BC /* md5.cpp in Sources */,
+				D27F78D21CEDE8C000EFA2BC /* pugixml.cpp in Sources */,
+				D27F78D81CEDE8D100EFA2BC /* HandShake.cpp in Sources */,
+				D27F78D91CEDE8D100EFA2BC /* IMRSA.cpp in Sources */,
+				D27F78BC1CE9C22F00EFA2BC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D27F78BD1CE9C22F00EFA2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D27F78BE1CE9C22F00EFA2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D27F78C01CE9C22F00EFA2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "${SRCROOT}/EasySocket/include";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Debug;
+		};
+		D27F78C11CE9C22F00EFA2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = "${SRCROOT}/EasySocket/include";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D27F78B31CE9C22F00EFA2BC /* Build configuration list for PBXProject "EasySocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27F78BD1CE9C22F00EFA2BC /* Debug */,
+				D27F78BE1CE9C22F00EFA2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D27F78BF1CE9C22F00EFA2BC /* Build configuration list for PBXNativeTarget "EasySocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D27F78C01CE9C22F00EFA2BC /* Debug */,
+				D27F78C11CE9C22F00EFA2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D27F78B01CE9C22F00EFA2BC /* Project object */;
+}
